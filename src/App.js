@@ -35,6 +35,7 @@ import Axios6 from './AxiosDemo/Axios6';
 import ErrorDemo from './windowMethod/errorMethod';
 import Navigation from './MyProject/Navigation';
 import Header from './MyProject/Header';
+import {FetchApi} from './MyProject/FetchBook/Date/Name/Api';
 
 
 function App() {
@@ -71,6 +72,7 @@ function App() {
           <Route path='/error' Component={ErrorDemo}></Route>
           <Route path='/navigation' Component={Navigation}></Route>
           <Route path='/header' Component={Header}></Route>
+          <Route path="/fetchbookApi" Component={FetchApi}></Route>
           
         </Routes>
       </BrowserRouter>

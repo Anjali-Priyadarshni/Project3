@@ -10,6 +10,8 @@ function Header () {
             <button className="btn btn-default" type="submit">
             <i className="glyphicon glyphicon-search"></i>
             </button>
+            <button type="button" className="btn btn-primary">
+                <i className="icon-shoping-cart"></i>cart button</button>
         
         </div>
     )
